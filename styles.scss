@@ -1,5 +1,60 @@
-$body-color: pink;
+// Variables
+// Colors
+$primary-color: hsl(257, 40%, 49%);
+
+// Typography
+$heading-font: 'Poppins', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+// Reset
+// condensed from normalize.css v8.0.1
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
-  background: $body-color;
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  background-color: $primary-color;
+  color: #fff;
+  font-family: $body-font;
+}
+
+h1 {
+  color: #fff;
+  font-family: $heading-font;
+  font-weight: 700;
 }
