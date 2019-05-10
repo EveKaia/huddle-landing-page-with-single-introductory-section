@@ -23,7 +23,6 @@ body {
   background-position: top;
   background-size: contain;
   color: #fff;
-  display: grid;
   font-family: $body-font;
   font-size: 16px;
   padding: 2rem;
@@ -78,6 +77,11 @@ a.cta-button {
   margin-top: 10px;
 }
 
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
 header {
   margin-bottom: 60px;
 
@@ -89,6 +93,7 @@ header {
 main {
   display: block;
   text-align: center;
+  padding-bottom: 60px;
 
   figure {
     margin: 0 0 75px;
@@ -100,6 +105,9 @@ main {
 }
 
 footer {
+  bottom: 0px;
+  height: 60px;
+  position: absolute;
   width: 100%;
 }
 

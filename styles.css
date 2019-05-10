@@ -13,7 +13,6 @@ body {
   background-position: top;
   background-size: contain;
   color: #fff;
-  display: grid;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding: 2rem; }
@@ -59,6 +58,10 @@ a.cta-button {
   text-decoration: none;
   margin-top: 10px; }
 
+.container {
+  min-height: 100%;
+  position: relative; }
+
 header {
   margin-bottom: 60px; }
   header img {
@@ -66,13 +69,17 @@ header {
 
 main {
   display: block;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 60px; }
   main figure {
     margin: 0 0 75px; }
   main > div {
     padding: 0 6px; }
 
 footer {
+  bottom: 0px;
+  height: 60px;
+  position: absolute;
   width: 100%; }
 
 #social-menu {
