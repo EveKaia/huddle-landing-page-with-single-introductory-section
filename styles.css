@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%; }
@@ -5,22 +11,20 @@ html {
 body {
   background: url("images/bg-mobile.svg") #674baf top center no-repeat;
   background-position: top;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
+  display: grid;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  margin: 0; }
-
-main {
-  display: block;
-  text-align: center; }
+  padding: 2rem; }
 
 h1 {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 1.6em;
   font-weight: 700;
-  line-height: 1.4;
+  letter-spacing: 1px;
+  line-height: 1.6;
   margin: 0.67em 0; }
 
 a {
@@ -41,8 +45,8 @@ img {
   display: none; }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.4; }
+  font-size: 1rem;
+  line-height: 1.6; }
 
 a.cta-button {
   background-color: #fff;
@@ -50,6 +54,38 @@ a.cta-button {
   color: #674baf;
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-  padding: 20px 80px;
-  text-decoration: none; }
+  font-size: .875rem;
+  padding: 15px 80px;
+  text-decoration: none;
+  margin-top: 10px; }
+
+header {
+  margin-bottom: 60px; }
+  header img {
+    max-width: 130px; }
+
+main {
+  display: block;
+  text-align: center; }
+  main figure {
+    margin: 0 0 75px; }
+  main > div {
+    padding: 0 6px; }
+
+footer {
+  width: 100%; }
+
+#social-menu {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+  text-align: center; }
+  #social-menu li {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 7px;
+    width: 15px; }
+    #social-menu li a {
+      color: #fff; }
