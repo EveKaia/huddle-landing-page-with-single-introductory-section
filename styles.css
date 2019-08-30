@@ -96,3 +96,15 @@ footer {
     width: 15px; }
     #social-menu li a {
       color: #fff; }
+
+@media screen and (min-width: 768px) {
+  body {
+    background: url("images/bg-desktop.svg") #674baf top center no-repeat; }
+  .container {
+    margin: 0px auto;
+    max-width: 1440px; }
+  main {
+    display: flex;
+    justify-content: space-between; }
+    main figure img {
+      min-width: 300px; } }
