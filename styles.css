@@ -81,10 +81,15 @@ footer {
   height: 60px;
   position: absolute;
   width: 100%; }
+  footer .attribution {
+    font-size: 11px;
+    text-align: center; }
+    footer .attribution a {
+      color: #baafd5; }
 
 #social-menu {
   list-style: none;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding-left: 0px;
   text-align: center; }
   #social-menu li {
@@ -97,7 +102,7 @@ footer {
     #social-menu li a {
       color: #fff; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   body {
     background: url("images/bg-desktop.svg") #674baf top center no-repeat;
     background-size: contain; }
@@ -115,6 +120,7 @@ footer {
     main h1 {
       font-size: 2em; }
   footer {
-    position: inherit;
-    display: flex;
-    justify-content: flex-end; } }
+    position: inherit; }
+    footer #social-menu {
+      display: flex;
+      justify-content: flex-end; } }
